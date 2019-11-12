@@ -1,9 +1,9 @@
 $(function() {
   $("#myform").submit(function(e) {
     e.preventDefault();
-    var womanname = $("#womanname").val();
-    var womanemail = $("#womanemail").val();
-          var womansize = $("#womansize").val();
+      var womanName = $("#womanname").val();
+      var womanemail = $("#womanemail").val();
+      var womansize = $("#womansize").val();
       var womanbrand = $("#womanbrand").val();
       var womancolor = $("#womancolor").val();
       var womancomp = $("#womancomp").val();
@@ -15,7 +15,7 @@ $(function() {
       console.log(womancolor);
       console.log(womancomp); 
       console.log(amount);
-
+       window.location.reload()
     });
       $("#myform1").submit(function(e) {
         e.preventDefault();
@@ -33,6 +33,7 @@ $(function() {
       console.log(mancolor);
       console.log(mancomp);
       console.log(amount1);
+        window.location.reload()
   });
 });
 
