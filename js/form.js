@@ -1,40 +1,43 @@
 $(function() {
   $("#myform").submit(function(e) {
     e.preventDefault();
-    var womanname = $("#womanname").val();
-    var womanemail = $("#womanemail").val();
-          var womansize = $("#womansize").val();
-      var womanbrand = $("#womanbrand").val();
-      var womancolor = $("#womancolor").val();
-      var womancomp = $("#womancomp").val();
+      var womanName = $("#womanName").val();
+      var womanEmail = $("#womanEmail").val();
+      var womanSize = $("#womanSize").val();
+      var womanBrand = $("#womanBrand").val();
+      var womanColor = $("#womanColor").val();
+      var womanComp = $("#womanComp").val();
       var amount = $("#amount").val();
      
-      console.log(womanname);
-      console.log(womanemail);
-      console.log(womansize);
-      console.log(womanbrand);
-      console.log(womancolor);
-      console.log(womancomp); 
+      console.log(womanName);
+      console.log(womanEmail);
+      console.log(womanSize);
+      console.log(womanBrand);
+      console.log(womanColor);
+      console.log(womanComp); 
       console.log(amount);
 alert("Your order has been submitted successfully");
-    }); 
+  
+       window.location.reload()
+    });
       $("#myform1").submit(function(e) {
         e.preventDefault();
-            var manname = $("#manname").val();
-      var manemail = $("#manemail").val();
-      var mansize = $("#mansize").val();
-      var manbrand = $("#manbrand").val();
-      var mancolor = $("#mancolor").val();
-      var mancomp = $("#mancomp").val();
+            var manName = $("#manName").val();
+      var manEmail = $("#manEmail").val();
+      var manSize = $("#manSize").val();
+      var manBrand = $("#manBrand").val();
+      var manColor = $("#manColor").val();
+      var manComp = $("#manComp").val();
       var amount1 = $("#amount1").val();
-      console.log(manname);
-      console.log(manemail);
-      console.log(mansize);
-      console.log(manbrand);
-      console.log(mancolor);
-      console.log(mancomp);
+      console.log(manName);
+      console.log(manEmail);
+      console.log(manSize);
+      console.log(manBrand);
+      console.log(manColor);
+      console.log(manComp);
       console.log(amount1);
       alert("Your order has been submitted successfully");
+        window.location.reload()
   });
 });
 
