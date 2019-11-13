@@ -8,6 +8,7 @@ $(function() {
       var womancolor = $("#womancolor").val();
       var womancomp = $("#womancomp").val();
       var amount = $("#amount").val();
+     
       console.log(womanname);
       console.log(womanemail);
       console.log(womansize);
@@ -15,8 +16,8 @@ $(function() {
       console.log(womancolor);
       console.log(womancomp); 
       console.log(amount);
-
-    });
+alert("Your order has been submitted successfully");
+    }); 
       $("#myform1").submit(function(e) {
         e.preventDefault();
             var manname = $("#manname").val();
@@ -33,6 +34,7 @@ $(function() {
       console.log(mancolor);
       console.log(mancomp);
       console.log(amount1);
+      alert("Your order has been submitted successfully");
   });
 });
 
